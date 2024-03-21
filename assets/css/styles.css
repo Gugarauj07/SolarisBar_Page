@@ -707,8 +707,8 @@ body.dark-theme {
   top: 7.5rem;
   right: 5rem;
   transform: rotate(-45deg);
-  width: 150px; /* Adiciona largura */
-  height: 150px; /* Adiciona altura */
+  width: 80px; /* Adiciona largura */
+  height: 80px; /* Adiciona altura */
 }
 
 .footer__spinach {
