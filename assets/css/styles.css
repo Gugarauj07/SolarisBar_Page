@@ -867,6 +867,7 @@ body.dark-theme {
   }
 }
 
+
 @media screen and (min-width: 767px) {
   .nav {
     column-gap: 3rem;
@@ -1205,14 +1206,14 @@ body.dark-theme {
   justify-content: center;
   align-items: center;
   background-color: #f8f9fa;
-  padding: 8px;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   font-size: 0.8em; /* Reduz o tamanho da fonte */
 }
 
 .sides__container h3 {
-  margin-right: 8px;
+  margin-right: 10px;
   color: black;
 }
 
@@ -1223,11 +1224,32 @@ body.dark-theme {
 }
 
 .sides__container ul li {
-  margin-right: 7px; /* Reduz o espaçamento entre os itens */
+  margin-right: 10px; /* Reduz o espaçamento entre os itens */
   font-weight: bold;
   color: black;
 }
 
 .popular__card h3 {
   margin-top:3px
+}
+
+@media screen and (max-width: 768px) {
+  .sides__container {
+      flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .popular__container {
+    grid-template-columns: repeat(2, 150px);
+    
+  }
+
+  .popular__card {
+    padding-top: 65px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+  }
 }
