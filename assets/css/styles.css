@@ -1249,7 +1249,25 @@ body.dark-theme {
   .popular__card {
     padding-top: 65px;
     padding-bottom: 5px;
-    align-items: center;
-    justify-content: center;
   }
+
+  
+.menu-tab-wp {
+  margin: 10px;
+}
+
+.menu-tab ul {
+  padding: 10px;
+}
+
+.menu-tab ul li, .menu-tab ul .filter-active {
+  font-size: 10px;
+  padding: 5px 13px;
+}
+
+.filter-active {
+  top: 6px;
+  min-height: 35px;
+  z-index: -1;
+} 
 }
