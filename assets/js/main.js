@@ -117,6 +117,8 @@ sr.reveal(`.popular__card`, {interval: 100})
 
 /*=============== SwitchButton ===============*/
 
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var mixer = mixitup('#menu-dish');
 });
@@ -177,3 +179,4 @@ jQuery(window).on('load', function () {
     }
 
 });
+

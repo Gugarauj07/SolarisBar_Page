@@ -1188,6 +1188,7 @@ body.dark-theme {
   margin-right: 10px;
   position: relative;
   top: 1px;
+  color: black;
 }
 
 .menu-tab ul .filter-active {
@@ -1197,4 +1198,36 @@ body.dark-theme {
 
 .menu-list-row .bydefault_show .dish-box-wp {
   display: inline-block !important;
+}
+
+.sides__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 0.8em; /* Reduz o tamanho da fonte */
+}
+
+.sides__container h3 {
+  margin-right: 8px;
+  color: black;
+}
+
+.sides__container ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.sides__container ul li {
+  margin-right: 7px; /* Reduz o espaçamento entre os itens */
+  font-weight: bold;
+  color: black;
+}
+
+.popular__card h3 {
+  margin-top:3px
 }
