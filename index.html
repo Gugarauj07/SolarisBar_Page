@@ -121,36 +121,72 @@
                 <span class="section__subtitle">Cardápio</span>
                 <h2 class="section__title">Pratos populares</h2>
 
-                <div class="popular__container container grid">
-                    <article class="popular__card">
-                        <img src="assets/img/pexels-samer-d-2233730.jpg" alt="popular image" class="popular__img">
+                <div class="menu-tab-wp">
+                    <div class="row">
+                        <div class="col-lg-12 m-auto">
+                            <div class="menu-tab text-center">
+                                <ul class="filters">
+                                    <div class="filter-active"></div>
+        
+                                    <li class="filter" data-filter=".segunda">
+                                        Segunda
+                                    </li>
+                                    <li class="filter" data-filter=".terca">
+                                        Terça
+                                    </li>
+                                    <li class="filter" data-filter=".quarta">
+                                        Quarta
+                                    </li>
+                                    <li class="filter" data-filter=".quinta">
+                                        Quinta
+                                    </li>
+                                    <li class="filter" data-filter=".sexta">
+                                        Sexta
+                                    </li>
+                                    <li class="filter" data-filter=".sabado">
+                                        Sábado
+                                    </li>
+                                    <li class="filter" data-filter=".domingo">
+                                        Domingo
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                        <h3 class="popular__name">Espeto</h3>
-                        <span class="popular__description">Comida brasileira</span>
+                <div lass="menu-list-row">
+                    <div class="popular__container container grid bydefault_show" id="menu-dish">
+                        <div class="popular__card dish-box-wp mix segunda">
+                            <img src="assets/img/pexels-samer-d-2233730.jpg" alt="popular image" class="popular__img" >
 
-                        <span class="popular__price">R$12.99</span>
+                            <h3 class="popular__name">Espeto</h3>
+                            <span class="popular__description">Comida brasileira</span>
 
-                    </article>
+                            <span class="popular__price">R$12.99</span>
 
-                    <article class="popular__card">
-                        <img src="assets/img/pexels-anna-guerrero-4078163.jpg" alt="popular image" class="popular__img">
+                        </div>
 
-                        <h3 class="popular__name">Lasanha</h3>
-                        <span class="popular__description">Comida brasileira</span>
+                        <article class="popular__card dish-box-wp mix terca">
+                            <img src="assets/img/pexels-anna-guerrero-4078163.jpg" alt="popular image" class="popular__img">
 
-                        <span class="popular__price">R$15.99</span>
+                            <h3 class="popular__name">Lasanha</h3>
+                            <span class="popular__description">Comida brasileira</span>
 
-                    </article>
+                            <span class="popular__price">R$15.99</span>
 
-                    <article class="popular__card">
-                        <img src="assets/img/bowl-food-with-spoon-bowl-rice-side.jpg" alt="popular image" class="popular__img">
+                        </article>
 
-                        <h3 class="popular__name">Feijoada</h3>
-                        <span class="popular__description">Comida brasileira</span>
+                        <article class="popular__card dish-box-wp mix quarta">
+                            <img src="assets/img/bowl-food-with-spoon-bowl-rice-side.jpg" alt="popular image" class="popular__img">
 
-                        <span class="popular__price">R$19.99</span>
+                            <h3 class="popular__name">Feijoada</h3>
+                            <span class="popular__description">Comida brasileira</span>
 
-                    </article>
+                            <span class="popular__price">R$19.99</span>
+
+                        </article>
+                    </div>
                 </div>
             </section>
 
@@ -237,10 +273,18 @@
             <i class="ri-arrow-up-line"></i>
         </a>
 
+        <!-- jquery  -->
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
         <!--=============== SCROLLREVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/gsap.min.js"></script>
+        <!-- mixitup -- filter  -->
+        <script src="assets/js/jquery.mixitup.min.js"></script>
+        
+
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+
     </body>
 </html>
